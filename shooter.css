@@ -1,0 +1,36 @@
+#player{
+	height: 100px;
+	width: 100px;
+	display: inline-block;
+	position: absolute;
+	top:0px;
+	left:0px;
+	z-index: 5;
+}
+#bullet{
+	height: 100px;
+	width: 100px;
+	display: inline-block;
+	position: absolute;
+	top:0px;
+	left:0px;
+	z-index: 6;
+}
+#map{
+	z-index: 1;
+}
+
+/*
+.floor{
+	z-index: 15;
+	background-color: red;
+}*/
+.floor{
+	z-index: -1;
+	
+}
+.beam{
+	display: inline-block;
+	position: absolute;
+	z-index: 2;
+}
